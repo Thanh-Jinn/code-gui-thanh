@@ -340,3 +340,28 @@ p.demos {
         transform: scale(1) rotate(0deg);
     }
 }
+
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    background-image: url('./assets/297061176_448259864007240_4769068266924798170_n.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay-backdop {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 00);
+    backdrop-filter: blur(16px);
+}
